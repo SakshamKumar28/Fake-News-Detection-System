@@ -67,7 +67,7 @@ pipeline = Pipeline([
 ])
 
 pipeline.fit(x_train, y_train)
-pred = pipeline.predict(x_test)
+# pred = pipeline.predict(x_test)
 
 
 if not os.path.exists("fake_news_model.pkl"):
