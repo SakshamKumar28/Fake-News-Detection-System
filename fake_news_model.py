@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+# from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 # 1. Read the data
 df = pd.read_csv("FakeNewsNet.csv")
